@@ -5,3 +5,6 @@ module.exports.userService = require('./user.service');
 module.exports.hoangService = require('./hoang.service');
 module.exports.lopService = require('./lop.service');
 module.exports.sinhvienService = require('./sinhvien.service');
+module.exports.apparelSizeService = require('./apparelSize.service');
+module.exports.productService = require('./product.service');
+module.exports.productCategoriesService = require('./productCategories.service');

@@ -3,3 +3,6 @@ module.exports.userController = require('./user.controller');
 module.exports.hoangController = require('./hoang.controller');
 module.exports.lopController = require('./lop.controller');
 module.exports.sinhvienController = require('./sinhvien.controller');
+module.exports.apparelSizeController = require('./apparelSize.controller');
+module.exports.productController = require('./product.controller');
+module.exports.productCategoriesController = require('./productCategories.controller');

@@ -5,6 +5,9 @@ const docsRoute = require('./docs.route');
 const hoangRoute = require('./hoang.route');
 const lopRoute = require('./lop.route');
 const sinhvienRoute = require('./sinhvien.route');
+const apparelSizeRoute = require('./apparelSize.route');
+const productRoute = require('./product.route');
+const productCategoriesRoute = require('./productCategories.route');
 const config = require('../../config/config');
 
 const router = express.Router();
@@ -29,6 +32,18 @@ const defaultRoutes = [
   {
     path: '/sinhviens',
     route: sinhvienRoute,
+  },
+  {
+    path: '/apparelsizes',
+    route: apparelSizeRoute,
+  },
+  {
+    path: '/products',
+    route: productRoute,
+  },
+  {
+    path: '/productcategoriess',
+    route: productCategoriesRoute,
   },
 ];
 
