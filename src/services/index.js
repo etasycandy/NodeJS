@@ -8,3 +8,7 @@ module.exports.sinhvienService = require('./sinhvien.service');
 module.exports.apparelSizeService = require('./apparelSize.service');
 module.exports.productService = require('./product.service');
 module.exports.productCategoriesService = require('./productCategories.service');
+module.exports.peopleService = require('./people.service');
+module.exports.professionalService = require('./professional.service');
+module.exports.worksforService = require('./worksfor.service');
+module.exports.companiesService = require('./companies.service');
